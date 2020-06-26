@@ -115,6 +115,12 @@
         android:defaultValue="false" />
 
     <com.arrow.support.preferences.SystemSettingSwitchPreference
+        android:key="sysui_nav_bar_inverse"
+        android:title="@string/navigation_bar_invert_layout_title"
+        android:summary="@string/navigation_bar_invert_layout_summary"
+        android:defaultValue="false" />
+
+    <com.arrow.support.preferences.SystemSettingSwitchPreference
         android:key="double_tap_sleep_gesture"
         android:title="@string/double_tap_sleep_gesture_title"
         android:summary="@string/double_tap_sleep_gesture_summary"
